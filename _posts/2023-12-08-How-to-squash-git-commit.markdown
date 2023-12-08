@@ -11,5 +11,6 @@ A vim window will open with a list of your previous commits.
 Replace "pick" on with "squash" or "s" of all the commits there except for the first one.
 
 In this example, <after-this-commit> is either the SHA1 hash or the relative location from the HEAD of the current branch from which commits are analyzed for the rebase command. For example, if the user wishes to view 5 commits from the current HEAD in the past the command is git rebase -i HEAD~5. 
+If <after-this-commit> is SHA1 hash, it will start listing all commits after this one (means that this one is not include)
 
 After everything done, push it with force flag: git push -f
