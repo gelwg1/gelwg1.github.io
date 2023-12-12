@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Some useful Typescript utility"
-date:   2023-12-06 12:03:0 +0700
+date:   2023-12-12 12:03:0 +0700
 categories: [Coding, Typescript]
 ---
 ## Partial<Type>
@@ -28,7 +28,7 @@ categories: [Coding, Typescript]
     description: "throw out trash",
   });
   {% endhighlight %}
-## Partial<Type>
+## Required<Type>
   Simply the opposite of Partial.
   Example: 
   {% highlight typescript %}
